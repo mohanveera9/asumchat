@@ -1,0 +1,62 @@
+body {
+    /*  background-image:url('C:\Users\Nowshinfarhana\Desktop\background.jpg');*/
+     /* You can replace #f2f2f2 with any color code or color name you prefer */
+	 background: linear-gradient(to right, #728FCE, #C34A2C, #342D7E);/* Mixed color background */
+
+    font-family: Arial, sans-serif;
+    display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+    margin: 0;
+    padding: 0;
+}
+
+  
+.container{
+    background: rgba(255, 255, 255, 0.2); /* Background color with opacity for the glass effect */
+    border-radius: 10px; /* Rounded corners for the container */
+    padding: 20px;
+    backdrop-filter: blur(10px); /* Apply the frosted glass effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08); /* Optional: Add box shadow for depth */
+    color: #fff; /* Example: set the text color to white for better visibility */
+    text-align:center;
+    color:black;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+button {
+    padding: 10px 20px;
+   background: linear-gradient(to left, #728FCE, #C34A2C, #342D7E);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    border: none;
+    color:black;
+    cursor: pointer;
+    border-radius: 5px;
+    align:center;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
